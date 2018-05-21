@@ -1,16 +1,25 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="danger">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
+    <ion-buttons start>
+        <button ion-button icon-only color="royal">
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-buttons start>
+          <button ion-button icon-only>
+            <ion-icon name="more"></ion-icon>
+          </button>
+        </ion-buttons>
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
- 
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <ion-item>
+        <ion-label> Sam</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
 </ion-content>
